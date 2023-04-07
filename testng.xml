@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lenovo/IdeaProjects/EpamCa3/src/test/java/org/example/AppTest.java">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://www.github.com/"/>
+        <classes>
+            <class name="org.example.AppTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+
+          name="test2">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.github.com/"/>
+        <classes>
+            <class name="org.example.AppTest"/>
+        </classes>
+    </test>
+</suite>
